@@ -1,0 +1,3 @@
+For my personalization of this assingment I added a "blended brush color" option. When checked, it allows the brush color to have an animated color cycling feature. As you paint with the mouse, the color changes depending on the speed. If you move the mouse slowly, the hues will change gradually, while moving the mouse quicker results in a more rapid change of colors.
+
+Used https://learnopengl.com/Advanced-OpenGL/Blending to learn about blending features in GL.
