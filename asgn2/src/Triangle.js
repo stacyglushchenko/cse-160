@@ -49,7 +49,7 @@ function drawTriangle(vertices) {
     }
   
     // Bind the buffer object to target
-    gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+    gl.bindBuffer(gl.ARRAY_BUFFER, this.buffer);
     // Write date into the buffer object
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.DYNAMIC_DRAW);
   
