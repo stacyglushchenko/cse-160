@@ -1,0 +1,60 @@
+<!-- Stacy Glushchenko
+aeglushc@ucsc.edu -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shader</title>
+  </head>
+
+  <body onload="main()">
+    <p>   
+      <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    
+    <p id="numdot"> XXX </p>
+    
+    <div id="gemCounter" style="position: absolute; top: 10px; left: 10px; 
+        color: white; font-size: 24px; font-family: Arial; 
+        text-shadow: 2px 2px 4px black;">
+      Gems: 0 / 10
+    </div>
+    <p>
+      Camera Angle <input type="range" min="-90" max="360" value = "0" class="slider" id="angleSlide">
+    <p>
+      Normals: <button type="button" id="normalOn">Normal On</button>
+      <button type="button" id="normalOff">Normal Off</button>
+      <p>
+        Light X <input type="range" min="-50" max="50" value = "0" class="slider" id="lightX">
+        Light Y <input type="range" min="0" max="50" value = "2" class="slider" id="lightY">
+        Light Z <input type="range" min="-50" max="50" value = "0" class="slider" id="lightZ">
+    <p>
+      Animation: <button type="button" id="animationOn">ON</button>
+      <button type="button" id="animationOff">OFF</button>
+    <p>
+      Light: <button type="button" id="lightOn">ON</button>
+      <button type="button" id="lightOff">OFF</button>
+    <p>
+      Light Color: 
+      Red: <input type="range" min="0" max="100" value = "100" class="slider" id="red">
+      Green: <input type="range" min="0" max="100" value = "100" class="slider" id="green">
+      Blue: <input type="range" min="0" max="100" value = "100" class="slider" id="blue">
+    <p>
+      Spotlight: <button type="button" id="spotlightOn">ON</button>
+      <button type="button" id="spotlightOff">OFF</button>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-cse160.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Sphere.js"></script>
+    <script src="Point.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Model.js"></script>
+    <script src="Cylinder.js"></script>
+    <script src="Camera.js"></script>
+    <script src="Shader.js"></script>
+  </body>
+</html>
