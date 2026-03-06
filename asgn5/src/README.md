@@ -1,4 +1,4 @@
-Addition Feature:
+Additional Feature:
 I added a game where you catch fish. The fish move across the speed at varying speeds, and the user must click on them to catch (using raycasting). There is a counter in the corner which tracks how many fish you caught. Once done a message pops up. I also added gradients to my shapes using vertex colors.
 
 Lighting:
