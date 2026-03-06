@@ -1,0 +1,44 @@
+<!-- Stacy Glushchenko
+aeglushc@ucsc.edu -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shader</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.183.2/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.183.2/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body onload="main()">
+    <canvas id="c"></canvas>
+    <div id="loading">
+      <div class="progress"><div class="progressbar"></div></div>
+    </div>
+    <div id="score" style="
+      position: absolute; top: 20px; left: 20px;
+      color: white; font-size: 24px;
+      font-family: tahoma;
+      text-shadow: 1px 1px 4px black;">
+      Catch all the fish!
+      <p>Fish Caught: 0 / 8
+    </div>
+    <div id="win" style="
+      display: none;
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; font-size: 48px;
+      font-family: tahoma;
+      text-shadow: 2px 2px 6px black;
+      text-align: center;">
+      Congratulations you caught them all!
+    </div>
+    <script type="module" src="Three.js"></script>
+  </body>
+</html>
